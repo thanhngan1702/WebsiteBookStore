@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Lại là Nhỏ danh mục  </title>
+	<!-- link bootstrap, css, jvs -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="./CSS/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body> 
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid"> 
+			<a class="navbar-branch" >
+			    <img src="./image/logo.png.png" height="80">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+		            data-target="#navbarResponsive">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+
+
+
+       <div class="collapse navbar-collapse" id="navbarResponsive"> 
+		    	<ul class="navbar-nav ml-auto"> 
+		    		<li class="nav-item">
+		    			<a class="nav-link active" href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/index.html#"> Trang chủ </a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a  class="nav-link " href="danhmuc.html" class="sub-ddown"> Danh mục </a>
+		    		</li>
+		            <li class="nav-item">
+		            	<a  class="nav-link " href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/canhan.html"> Cá nhân  </a>
+		            </li>
+		            <li class="nav-item">
+		            	<a  class="nav-link " href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/hotro.html"> Hỗ trợ   </a>
+		            </li>
+		         </ul>
+		     </div>
+	</nav>
+
+ <!-- CAROUSEL băng chuyền cho ảnh -->
+       <div id= "slides" class="carousel slide" data-ride="carousel">
+       	      <ul class= "carousel-indicators">
+       	      	<li data-target="#slides" data-slide-to="0" class="active"></li>
+       	      	<li data-target="#slides" data-slide-to="1"> </li>
+       	      	<li data-target="#slides" data-slide-to="2"> </li>
+       	      	<li data-target="#slides" data-slide-to="3"> </li>
+              </ul>
+              <div class="carousel-inner">
+              	<div class="carousel-item active">
+              		<img src="./image/dmuc3.png" >
+              	</div>
+            	<div class="carousel-item">
+            		<img src="./image/dmuc2.png" >
+            	   </div>
+            	<div class="carousel-item">
+                    <img src="./image/carousel1.png" >
+                   </div>            	
+                <div class="carousel-item">
+                     <img src="./image/dmuc4.png" >
+                   </div>	
+              	</div>        	
+          </div>
+    <!-- JUMBOTRON thông điệp, thông tin của trang web-->
+    <div class="container-fluid">
+    	<div class="jumbotron">
+    		<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+    			<p> " Sách không chỉ là sách, chúng là cuộc sống, là trái tim và hạt nhân của những thời đại đã qua, là lý do mà con người lao động và chết, là cốt lõi và tinh hoa của bao cuộc đời."   </p>
+    		</div>
+    	</div>
+    </div>
+
+
+    <!-- TIÊU ĐỀ NÈ -->
+ 
+         <div class="container-fluid padding" style="background-colour: black;">  
+            <div class="row welcome text-center">
+                <div class="col-12">
+          <h3 class="display-12"> Sách nhà kĩ năng </h3>
+        </div>
+        </div>
+      </div>
+    
+    <br>
+   <hr class="light-100">
+
+<br>
+<br>
+<br>
+
+
+
+<!-- TẠO CARD NÈ -->
+<!------------------------ 3 card đầu -------->
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach22.png">
+             <div class="card-body">
+          <span class="discount">10%</span>
+                  <h6 class="card-title"> Ngày xưa có một con bò</h6>
+                    <p class="card-text text-center"> Đã bán: 220</p>
+                    <a style="margin-left: 60px; color: #333;" ><del>75.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 57.000 vnđ</a> </a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach23.png">
+             <span class="discount">17%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Sống xanh không khó </h6>                  
+                   <p class="card-text text-center"> Đã bán: 128</p>
+                   <a style="margin-left: 120px; color: #333;" ><del>85.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a> </a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach24.png">
+           <span class="discount">13%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Tuổi trẻ đáng giá bao nhiêu</h6>
+                     <p class="card-text text-center">Đã bán: 163 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>89.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 73.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+<!----------------------- 3 CARD TIẾP ------------------->
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach25.png">
+             <div class="card-body">
+          <span class="discount">10%</span>
+                  <h6 class="card-title"> Hành trình về phương Đông </h6>
+                    <p class="card-text text-center"> Đã bán: 120</p>
+                    <a style="margin-left: 60px; color: #333;" ><del> 92.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 82.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach26.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Dám nghĩ lớn </h6>                  
+                   <p class="card-text text-center"> Đã bán: 302</p>
+                   <a style="margin-left: 120px; color: #333;" ><del>86.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach27.png">
+           <span class="discount">15%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Khi mọi điểm tựa đều mất</h6>
+                     <p class="card-text text-center">Đã bán: 234 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>88.000 vnđ</del> <br> 
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+<!-------------------------- 3 CARD TIẾP TIẾP THEO NÈ ---->
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach28.png">
+             <div class="card-body">
+          <span class="discount">10%</span>
+                  <h6 class="card-title"> Đừng xin lỗi nữa</h6>
+                    <p class="card-text text-center"> Đã bán: 120</p>
+                    <a style="margin-left: 60px; color: #333;" ><del>75.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 65.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach29.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Milan thời thượng</h6>                  
+                   <p class="card-text text-center"> Đã bán: 385</p>
+                   <a style="margin-left: 120px; color: #333;" ><del>133.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 93.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="nb5.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach30.png">
+           <span class="discount">23%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Thức tỉnh mục đích sống</h6>
+                     <p class="card-text text-center">Đã bán: 402 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>94.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 73.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+<!----------------- 3 CARD TIẾP CỦA TIẾP NÈ HE ---------->
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach31.png">
+             <div class="card-body">
+          <span class="discount">15%</span>
+                  <h6 class="card-title"> Lagom biết đủ mới là tự do</h6>
+                    <p class="card-text text-center"> Đã bán: 120</p>
+                     <a style="margin-left: 60px; color: #333;" ><del>94.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 74.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach32.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Cách để truyền cảm hứng</h6>                  
+                   <p class="card-text text-center"> Đã bán: 302</p>
+                  <a style="margin-left: 60px; color: #333;" ><del>94.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 123.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach33.png">
+           <span class="discount">13%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Ngay bây giờ hoặc không bao giờ</h6>
+                     <p class="card-text text-center">Đã bán: 102 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>84.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+
+<!--------------- 3 CARD TIẾP THỨ 13...--->
+  <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach34.png">
+             <div class="card-body">
+          <span class="discount">15%</span>
+                  <h6 class="card-title"> Hài hước một chút thế giới sẽ khác đi</h6>
+                    <p class="card-text text-center"> Đã bán: 210</p>
+                    <a style="margin-left: 60px; color: #333;" ><del>75.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 57.000 vnđ</a> </a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach35.png">
+             <span class="discount">18%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Sống như ngày mai  sẽ chết</h6>                  
+                   <p class="card-text text-center"> Đã bán: 338</p>
+                   <a style="margin-left: 120px; color: #333;" ><del>95.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 72.000 vnđ</a> </a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach36.png">
+           <span class="discount">25%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Cứ sống tạm bợ mãi được sao</h6>
+                     <p class="card-text text-center">Đã bán: 256 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>99.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 83.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+<!------------------------ 3CARD TIẾP TỪ 15.... -------->
+
+
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach37.png">
+             <div class="card-body">
+          <span class="discount">18%</span>
+                  <h6 class="card-title"> Vấp nhưng đừng ngã</h6>
+                    <p class="card-text text-center"> Đã bán: 320</p>
+                    <a style="margin-left: 60px; color: #333;" ><del>115.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 95.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach14.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Sức mạnh của tiềm thức</h6>                  
+                   <p class="card-text text-center"> Đã bán: 225</p>
+                   <a style="margin-left: 120px; color: #333;" ><del>123.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 93.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach15.png">
+           <span class="discount">23%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Sống chủ động</h6>
+                     <p class="card-text text-center">Đã bán: 102 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>74.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 53.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+<!----------------- 3 CARD TIẾP CỦA TIẾP NÈ HE ---------->
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/sach16.png">
+             <div class="card-body">
+          <span class="discount">15%</span>
+                  <h6 class="card-title"> Đời ngắn đừng ngủ dài</h6>
+                    <p class="card-text text-center"> Đã bán: 320</p>
+                     <a style="margin-left: 60px; color: #333;" ><del>84.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 64.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach38.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Đừng quên não để đời bớt bão</h6>                  
+                   <p class="card-text text-center"> Đã bán: 333</p>
+                <a style="margin-left: 120px; color: #333;" ><del>94.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 113.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach18.png">
+           <span class="discount">13%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Nghệ thuật kết nối giao tiếp</h6>
+                     <p class="card-text text-center">Đã bán: 102 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>84.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+
+<!------------------- 3CARD CUỐI NHAAAAAAAAAAAAAAAAAAA ------------>
+
+
+<div class="card-deck">
+            <div class="card">
+                <img src="./image/sach39.png">
+             <div class="card-body">
+          <span class="discount">10%</span>
+                  <h6 class="card-title"> Hạnh phúc không nằm trong ví</h6>
+                    <p class="card-text text-center"> Đã bán: 320</p>
+                     <a style="margin-left: 60px; color: #333;" ><del>104.000 vnđ</del> <br>
+                  <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 74.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/sach40.png">
+             <span class="discount">20%</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Tuổi trẻ không trì hoãn</h6>                  
+                   <p class="card-text text-center"> Đã bán: 333</p>
+                  <a style="margin-left: 120px; color: #333;" ><del>94.000 vnđ</del> <br>
+                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 113.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/sach41.png">
+           <span class="discount">13%</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Đời bạn. bạn không sống. ai sống hộ</h6>
+                     <p class="card-text text-center">Đã bán: 102 </p>
+                     <a style="margin-left: 60px; color: #333;" ><del>84.000 vnđ</del> <br>
+                   <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+
+   <div id="fh5co-xemthem" class="col-md-12 text-center animate-box">
+  <div id="fh5co-xemthem" class="col-md-12 text-center animate-box">
+            <p style="margin-top: 30px; margin-left: 30px;"><a class="btn btn-primary btn-outline btn-lg" href="danhmuctt.html"> Trang 3<i class="icon-arrow-right22"></i></a></p>
+
+<br>
+<br>
+</div>
+
+
+<hr class="light-100">
+
+
+
+
+         </div>
+      </div>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   </body>
+</html>

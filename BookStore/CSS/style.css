@@ -1,0 +1,649 @@
+	@import url('https://fonts.googleapis.com/css2?family=Itim');
+        html, body {
+        	width: 100%;
+        	height: 100%;
+        	font-family: 'Itim';
+        	font-size: 25px;
+        	color: #222;
+                    }
+.navbar {
+	background-color: hsl(280, 30%, 80%)	 !important;
+}
+.navbar li a {
+	color: SeaGreen	 !important;
+}
+.navbar li a:hover {
+	color: white !important;
+}
+
+.carouse-inner img {
+	width: 100%;
+}
+/* TIÊU ĐỀ VỀ SÁCH NÈ */
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+	text-align: center;
+}
+/* Màu chữ cửa hàng */
+.container-fluid .welcome h1 {
+	color: #2E8B57;
+	font-size: 100px;
+}
+.welcome hr {
+	border-top: 2px solid hsl(310, 35%, 60%);
+	width: 20%;
+	margin-bottom: 2tem;
+	margin-left: 40%;
+}
+/* ICON NÈ */
+.social a {
+	font-size: 3em;
+	padding:  6rem;
+}
+
+.fa-facebook {
+	color: #4267b2
+}
+
+.fa-instagram {
+	color: #00AB6B
+}
+
+.fa-twitter {
+color: #1DA1F2
+}
+.container-fluid  hr {
+	border-top: 2px solid hsl(310, 35%, 60%);
+	margin-bottom: 2tem;
+}
+
+
+</* CARD */
+.h4 mb-4 {
+	    text-align: center;
+
+}
+
+.card-deck .card {
+	width: 34rem;
+	margin: 1,5rem;
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: 0 .3rem  .5rem rgba(0, 0, 0, .3);
+    overflow: hidden;
+	position: relative;
+}
+.card-deck .card .img{
+	  background: rgba(0,0,0, .3);
+}
+.card-deck .card .img {
+	height: 25rem;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+.card-deck .card-body{
+    padding-bottom: 0.5rem;
+    min-height: 220px;
+    padding: 10px 24px;
+}
+.card-deck .card-body .card-title{
+	text-align: center;
+	font-size: 1.6rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.card-deck .card-body .btn{
+	font-size: 1rem;
+	height: 3rem;
+	width: 7rem;
+	border-radius: .5rem;
+	outline: none;
+	border:none ;
+    border:.2rem solid #E066FF;
+    background: #fff;
+	color:#E066FF;
+	cursor: pointer;
+	transition: .3s linear;
+    text-align: center;
+    margin-left: 90px;
+ }
+ .card-deck .card-body .btn:hover{
+
+  background: #E066FF;
+  color: #fff;
+  text-align: center;
+}
+.card-deck .card .discount{
+	position: absolute;
+	top: 1rem; left: 1rem;
+	display: block;
+	height: 2.5rem;
+	width: 4rem;
+	background: #E066FF;
+	color: #fff;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 2rem;
+    border-radius: .5rem;
+}
+
+
+#fh5co-xemthem .btn {
+	font-size: 1.5rem;
+	height: 4rem;
+	width: 10rem;
+	border-radius: .5rem;
+	outline: none;
+	border:none ;
+    border:.2rem solid #E066FF;
+    background: #fff;
+	color:#E066FF;
+	cursor: pointer;
+	transition: .3s linear;
+    text-align: center;
+    margin-left: 70px;
+
+}
+
+/* BUTTON XEM THÊM NÈ */
+#fh5co-xemthem .btn .btn:hover  {
+  background: #DA70D6;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+/*  ĐƯỜNG KẺ TRÊN DISCOUNT */
+.light-100 {
+	border-top: 2px solid hsl(310, 35%, 60%);
+	width: 40%;
+	margin-left: 400px;
+
+}
+/* CARD giảm giá */
+#giamgia-1 .card-deck .card {
+	width: 34rem;
+	margin: 1,5rem;
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: 0 .3rem  .5rem rgba(0, 0, 0, .3);
+    overflow: hidden;
+	position: relative;
+}
+
+#giamgia-1 .card-deck .card .img {
+	background: rgba(0,0,0, .3);
+}
+#giamgia-1 .card-deck .card .img {
+	height: 25rem;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+#giamgia-1 .card-deck .card-body {
+	padding-bottom: 0.5rem;
+    min-height: 220px;
+    padding: 10px 24px;
+}
+#giamgia-1 .card-deck .card-body .card-title {
+	text-align: center;
+	font-size: 1.6rem;
+    color: black;
+    font-weight: bolder;
+}
+#giamgia-1 .card-deck .card-body .btn{
+	font-size: 1rem;
+	height: 3rem;
+	width: 7rem;
+	border-radius: .5rem;
+	outline: none;
+	border:none ;
+    border:.2rem solid #E066FF;
+    background: #fff;
+	color:#E066FF;
+	cursor: pointer;
+	transition: .3s linear;
+    text-align: center;
+    margin-left: 10px;
+}
+#giamgia-1 .card-deck .card-body .btn:hover{
+  background: #E066FF;
+  color: #fff;
+  text-align: center;
+}
+#giamgia-1 .card-deck .card .discount{
+	position: absolute;
+	top: 1rem; left: 1rem;
+	display: block;
+	height: 2.5rem;
+	width: 4rem;
+	background: #E066FF;
+	color: #fff;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 2rem;
+    border-radius: .5rem;
+}
+
+
+
+
+/* TẠO TRÍCH DẪN NÈ HE */
+
+
+
+#fh5co-testimonial .fh5co-heading h2 {
+  color: seagreen;
+  border-bottom: 20px;
+  text-align: center;
+  margin-left: 120px;
+}
+#fh5co-testimonial .box-testimony {
+  margin-bottom: 2em;
+  float: left;
+}
+#fh5co-testimonial .box-testimony a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-testimonial .box-testimony a:hover, #fh5co-testimonial .box-testimony a:focus, #fh5co-testimonial .box-testimony a:active {
+  color: white;
+  text-decoration: none;
+}
+#fh5co-testimonial .box-testimony blockquote {
+  padding-left: 0;
+  border-left: none;
+  padding: 40px;
+  background: #fff;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+#fh5co-testimonial .box-testimony blockquote:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  border-top: 15px solid black;
+  border-top-color: #fff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+#fh5co-testimonial .box-testimony blockquote .quote {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 0;
+  display: table;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  margin-top: -30px;
+  background: #00AD7C;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#fh5co-testimonial .box-testimony blockquote .quote > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#fh5co-testimonial .box-testimony blockquote p {
+  letter-spacing: 1px;
+}
+#fh5co-testimonial .box-testimony .author {
+  line-height: 20px;
+  color: seagreen;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#fh5co-testimonial .box-testimony .author .subtext {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+
+
+
+
+footer {
+	font-size: 20px;
+	background-color: #383838;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+                    /* DANH MỤC NHA */
+
+/* Màu chữ cửa hàng */
+.container-fluid .welcome h3 {
+	color: #2E8B57;
+	font-size: 100px;
+}
+.hr {
+	text-align: center;
+	font-size: 40px;
+	color: violet;
+	margin-left: 500px;
+}
+
+
+
+
+
+
+
+/*     ----------------- TẠO FORM NÈ HE ------------------------- */
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Itim';
+ }
+section{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+ }
+
+ section .noi-dung{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+
+ }
+section .noi-dung .form{
+     width: 50%;
+ }
+section .noi-dung .form h2{
+     color: seagreen;
+     font-weight: 700;
+     font-size: 1em;
+     text-transform: uppercase;
+     margin-bottom: 50px;
+     border-bottom: 2px solid plum;
+     display: inline-block;
+     letter-spacing: 0.5px;
+     text-align: center;
+ }
+ section .noi-dung .form .input-form{
+     margin-bottom: 10px;
+ }
+section .noi-dung .form .input-form span{
+     font-size: 20px;
+     margin-bottom: 10px;
+     display: inline-block;
+     color: seagreen;
+     letter-spacing: 1px;
+      }
+section .noi-dung .form .input-form input{
+     width: 100%;
+     padding: 10px 20px;
+     outline: none;
+     border: 1px solid plum;
+     font-size: 16px;
+     letter-spacing: 1px;
+     color: #607d8b;
+     background: transparent;
+     border-radius: 30px;
+     }
+ section .noi-dung .form .input-form input[type="submit"]{
+     
+     color: seagreen;
+     font-size: 22px;
+     border-bottom-style:  solid ;
+     font-weight: 100;
+     cursor: pointer;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+                0 2px 2px rgba(0,0,0,0.12),
+                0 4px 4px rgba(0,0,0,0.12),
+               0 8px 8px rgba(0,0,0,0.12),
+               0 16px 16px rgba(0,0,0,0.12); */
+
+ }
+section .noi-dung .form .input-form input[type="submit"]:hover{
+     background: plum;
+ }
+ section .noi-dung .form .nho-dang-nhap{
+     margin-bottom: 10px;
+     color: #607d8b;
+     font-size: 14px;
+ }
+ section .noi-dung .form .input-form p{
+     color: plum;
+     text-align: center;
+ }
+section .noi-dung .form .input-form p a{
+     color: seagreen;
+ }
+section .noi-dung .form h3{
+     color: plum;
+     text-align: center;
+     margin: 80px 0 10px;
+     font-weight: 300;
+ }
+section .noi-dung .form .icon-dang-nhap{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+section .noi-dung .form .icon-dang-nhap li{
+     list-style: none;
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ section .noi-dung .form p{
+ 	text-align: center;
+ 	color: #607d8b;
+ }
+ section .noi-dung .form .icon-dang-nhap li:nth-child(1){
+     color: #3b5999;
+ }
+ section .noi-dung .form .icon-dang-nhap li:nth-child(2){
+     color: #00AB6B;
+ }
+ section .noi-dung .form .icon-dang-nhap li:nth-child(3){
+     color: #55acee;
+ }
+ section .noi-dung .form .icon-dang-nhap li i{
+     font-size: 24px;
+ }
+ @media (max-width: 768px){
+     section .img-bg{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+     section .noi-dung{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         height: 100%;
+         z-index: 1;
+     }
+     section .noi-dung .form{
+         width: 100%;
+         padding: 40px;
+         background: rgba(255 255 255 / 0.9);
+         margin: 50px;
+     }
+     section .noi-dung .form p{
+         color: #607d8b;
+         text-align: center;
+         margin: 30px 0 10px;
+         font-weight: 500;
+     }
+ }
+
+
+
+
+
+
+/* ------------------------------- TẠO FORM LỜI NHẮN NÈ --------------------- */
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+section{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+      }
+section::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width:50%;
+     height: 100%;
+ }
+section .container{
+     position: relative;
+     min-width: 1100px;
+     min-height: 550px;
+     display:flex;
+     z-index: 100;
+ }
+
+
+
+
+ section .container .containerinfo{
+     position: absolute;
+     top: 40px;
+     width: 350px;
+     height: calc(100% - 80px);
+     background: #363636;
+     z-index: 1;
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+ }
+section .container .containerinfo h2{
+     color: plum;
+     font-size: 40px;
+     margin: 20px 0;
+ }
+ section .container .containerinfo li{
+     position: relative;
+     list-style: none;
+     display: flex;
+     margin: 20px 0;
+     cursor: pointer;
+     align-items: flex-start;
+ }
+section .container .containerinfo li span{
+     color: #fff;
+     margin-left: 10px;
+     font-weight: 300;
+     opacity: 0.5;
+     font-size: 20px;
+ }
+ /*Hiệu Ứng Hover Cho Thẻ Li*/
+ section .container .containerinfo li:hover span{
+     opacity: 1;
+ }
+
+
+
+ section .container .containerForm{
+     position: absolute;
+     padding: 70px 50px;
+     background: #fff;
+     margin-left: 150px;
+     padding-left: 250px;
+     width: calc(100% - 150px);
+     height: 100%;
+     box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+ }
+section .container .containerForm h2{
+     color: seagreen;
+     font-size: 50px;
+     font-weight: 500;
+ }
+section .container .containerForm .formBox{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding-top: 30px;
+ }
+section .container .containerForm .formBox .inputBox{
+     position: relative;
+     margin: 0 0 35px 0;
+ }
+section .container .containerForm .formBox .inputBox.w50{
+     width: 47%;
+ }
+section .container .containerForm .formBox .inputBox.w100{
+     width: 100%;
+ }
+
+
+
+ section .container .containerForm .formBox .inputBox textarea{
+     width: 100%;
+     padding: 5px 0;
+     resize: none;
+     font-size: 18px;
+     font-weight: 100;
+     color: seagreen;
+     border: none;
+     border-bottom: 1px solid #777;
+     outline: none;
+ }
+section .container .containerForm .formBox .inputBox textarea{
+     min-height: 120px;
+          }
+section .container .containerForm .formBox .inputBox input[type="submit"]{
+     position: relative;
+     cursor: pointer;
+     background: #363636;
+     color: #fff;
+     border: none;
+     max-width: 150px;
+     padding: 12px;
+ }
+section .container .containerForm .formBox .inputBox input[type="submit"]:hover{
+     background:  plum;
+ }
+
+
+
+
+
+ 

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> BookStore </title>
+	<!-- link bootstrap, css, jvs -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="./CSS/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body> 
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid"> 
+			<a class="navbar-branch" >
+			    <img src="./image/logo.png.png" height="80">
+		    </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+		            data-target="#navbarResponsive">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+
+
+
+       <div class="collapse navbar-collapse" id="navbarResponsive"> 
+		    	<ul class="navbar-nav ml-auto"> 
+		    		<li class="nav-item">
+		    			<a class="nav-link active" href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/index.html#"> Trang chủ </a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a  class="nav-link " href="danhmuc.html" class="sub-ddown"> Danh mục </a>
+		    		</li>
+		            <li class="nav-item">
+		            	<a  class="nav-link " href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/canhan.html"> Cá nhân  </a>
+		            </li>
+		            <li class="nav-item">
+		            	<a  class="nav-link " href="file:///C:/Users/ADMIN/Documents/DoAnHtml/Bootstrap/hotro.html"> Hỗ trợ   </a>
+		            </li>
+		         </ul>
+		     </div>
+	</nav>
+
+
+    <!-- CAROUSEL băng chuyền cho ảnh -->
+       <div id= "slides" class="carousel slide" data-ride="carousel">
+       	      <ul class= "carousel-indicators">
+       	      	<li data-target="#slides" data-slide-to="0" class="active"></li>
+       	      	<li data-target="#slides" data-slide-to="1"> </li>
+       	      	<li data-target="#slides" data-slide-to="2"> </li>
+       	      	<li data-target="#slides" data-slide-to="3"> </li>
+              </ul>
+              <div class="carousel-inner">
+              	<div class="carousel-item active">
+              		<img src="./image/carousel1.png" >
+              	</div>
+            	<div class="carousel-item">
+            		<img src="./image/carousel0.png" >
+            	   </div>
+            	<div class="carousel-item">
+                    <img src="./image/carousel2.png" >
+                   </div>            	
+                <div class="carousel-item">
+                     <img src="./image/carousel3.png" >
+                   </div>	
+              	</div>        	
+          </div>
+    <!-- JUMBOTRON thông điệp, thông tin của trang web-->
+    <div class="container-fluid">
+    	<div class="jumbotron">
+    		<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+    			<p> " Sách không chỉ là sách, chúng là cuộc sống, là trái tim và hạt nhân của những thời đại đã qua, là lý do mà con người lao động và chết, là cốt lõi và tinh hoa của bao cuộc đời."   </p>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Tiêu đề -->
+    <div class="container-fluid padding">
+    	<div class="row welcome text-center">
+    		<div class="col-12">
+    			<h1 class="display-12"> BookStore </h1>
+    		</div>
+    		<hr>
+    		<div class="col-lg-12">
+    			<p> BookStore ra đời với mong muốn cung cấp những cuốn sách hay nhất, ý nghĩa nhất về kĩ năng sống. Mang đến cho bạn đọc những cuốn sách phù hợp, chất lượng và nguồn kiến thức quí giá, là hành trang không thể thiếu trên đường đời của mỗi một con người. </p>
+    	</div>
+    </div>
+    </div>
+<!-- ICON NÈ HE -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding"> 
+            <div class="col-12 social padding">   			
+    			<a href="https://www.facebook.com/"><i class="fa fa-facebook"> </i> </a>
+    			<a href="https://www.instagram.com/"><i class="fa fa-instagram"> </i> </a>
+    			<a href="https://twitter.com/"><i class="fa fa-twitter"> </i> </a>
+    		</div> 
+    	</div>
+      <hr class="light-100">
+    </div>
+
+<br>
+<br>
+<br>
+
+<!-- CARD BEST SELLER-->
+    	<div class="row welcome text-center">
+    		<div class="col-12">
+    			<h3 class="display-12"> BEST SELLER </h3>
+    		</div>
+        </div>
+<br>
+<br>
+        <div class="card-deck">
+            <div class="card">
+                <img src="./image/card0.png">
+             <div class="card-body">
+			    <span class="discount">1</span>
+                  <h6 class="card-title"> Cafe cùng Tony</h6>
+                    <p class="card-text text-center"> Đã bán: 720</p>
+	                <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 74.000 vnđ</a></a>
+                    <p><a class="btn btn-primary btn-outline btn-lg" href="sach1.html"> Chọn mua</a></p>
+            </div>
+       </div>
+<!-- CARD 1-->
+        <div class="card">
+            <img src="./image/card1.png">
+		         <span class="discount">2</span>
+                  <div class="card-body">
+                   <h6 class="card-title"> Đắc nhân tâm</h6>                  
+                   <p class="card-text text-center"> Đã bán: 502</p>
+	               <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 83.000 vnđ</a></a>
+                   <p><a class="btn btn-primary btn-outline btn-lg" href="sach2.html"> Chọn mua</a></p>
+                  </div>
+        </div>
+<!-- CARD 2-->
+       <div class="card">
+            <img src="./image/card2.png">
+			     <span class="discount">3</span>
+                   <div class="card-body">
+                     <h6 class="card-title">Hiểu về trái tim</h6>
+                     <p class="card-text text-center">Đã bán: 402 </p>
+	                 <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 90px;"> 62.000 vnđ</a>  </a>
+                     <p><a class="btn btn-primary btn-outline btn-lg" href="sach3.html"> Chọn mua</a></p>             
+                  </div>
+        </div>
+</div>
+<br>
+<br>
+<br> 
+
+
+
+
+
+<!--- BUTTON để xem thêm nè -->
+     
+
+<div id="fh5co-xemthem" class="col-md-12 text-center animate-box">
+						<p style="margin-top: 30px; margin-left: 50px;"><a class="btn btn-primary btn-outline btn-lg" href="danhmuc.html">Xem thêm <i class="icon-arrow-right22"></i></a></p>
+
+<br>
+<br>
+
+<hr class="light-100">
+<br>
+<br>
+
+
+
+
+<!-- CARD DISCOUNT -->
+<div id="giamgia-1">
+    	<div class="row welcome text-center">
+    		<div class="col-12">
+    			<h3 class="display-12"> DISCOUNT </h3>
+    		</div>
+        </div>
+<br>
+<br>
+<div class="card-deck">
+   <div class="card">
+      <img src="./image/card3.png">
+          <div class="card-body">
+			<span class="discount">15 %</span>
+           <h6 class="card-title"> Người thầy vĩ đại</h6>
+               <p class="card-text text-center"> Đã bán: 320</p>
+          <a style="margin-left: 10px; color: #333;" ><del>102.000 vnđ</del> <br> 
+	      <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 40px;"> 71.000 vnđ</a></a>
+          <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuc.html"> Chọn mua</a></p>
+
+          </div>
+   </div>
+<!-- CARD 1 -->
+   <div class="card">
+      <img src="./image/card4.png">
+		<span class="discount">15%</span>
+      <div class="card-body">
+         <h6 class="card-title"> Sống 24 giờ 1 ngày</h6>                  
+             <p class="card-text text-center"> Đã bán: 102</p>
+         <a style="margin-left: 10px; color: #333;" ><del>105.000 vnđ</del> <br>
+	     <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 40px;"> 83.000 vnđ</a></a>
+         <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuc.html"> Chọn mua</a></p>
+      </div>
+   </div>
+
+<!-- CARD 2 -->
+   <div class="card">
+      <img src="./image/card5.png">
+			<span class="discount">13%</span>
+      <div class="card-body">
+         <h6 class="card-title">Tôi là ai</h6>
+               <p class="card-text text-center">Đã bán: 402 </p>
+         <a style="margin-left: 10px; color: #333;" ><del> 97.000 vnđ</del><br> 
+	     <a style="color:#2E8B57; font-size: 1.5rem; margin-left: 40px;"> 62.000 vnđ</a>  </a>
+         <p><a class="btn btn-primary btn-outline btn-lg" href="danhmuc.html"> Chọn mua</a></p>             
+      </div>
+   </div>
+</div>
+<br>
+<br>
+<br>
+
+
+<!-- butoon xem thêm tiếp theo -->
+ <div id="fh5co-xemthem" class="col-md-12 text-center animate-box">
+						<p style="margin-top: 30px; margin-left: 50px;"><a class="btn btn-primary btn-outline btn-lg" href="danhmuc.html">Xem thêm <i class="icon-arrow-right22"></i></a></p>
+
+<br>
+<br>
+
+<hr class="light-100">
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<!-- TẠO TRÍCH DẪN -->
+
+<div id="fh5co-testimonial" style="background-color: plum;">
+		<div class="container">
+			<br>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2> Trích dẫn hay</h2>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;… Có những điều sẽ đúng với người khác, cũng có khi đó là ý kiến riêng của họ nhưng chỉ bạn mới có thể quyết định thứ gì thật sự dành cho mình. &rdquo;</p>
+						</blockquote>
+						<p class="author"> Đừng Xin Lỗi Nữa -  Rachel Hollis <span class="subtext"></span></p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo; Có người nào bạn đang muốn họ thay đổi và sửa mình để tiến bộ hơn không? Tôi hoàn toàn ủng hộ việc này. Nhưng tại sao lại không bắt đầu từ bản thân mình? Thay đổi chính mình là một việc có ích và thực tế hơn nhiều so với việc thay đổi người khác và khả năng thành công cũng cao hơn rất nhiều. Khổng Tử từng nói: Đừng chỉ trích mái nhà hàng xóm nhiều tuyết trong khi cửa nhà mình lại không sạch.&rdquo;</p>
+						</blockquote>
+						<p class="author"> Đắc Nhân Tâm -  Dale Carnegie <span class="subtext"></span></p>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo; Bí mật của cuộc sống chính là ngã bảy lần và đứng dậy tám lần  &rdquo;</p>
+						</blockquote>
+						<p class="author">Nhà Giả Kim - Paulo Coelho<span class="subtext"></span></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!--- TẠO FOOTER -->
+
+<footer>
+
+				<div class="container-fluid padding " >
+					<div class="row text-center">
+						<div class="col-md-4">
+							<hr class="light">
+							<h3> BookStore </h3>
+							<p> 111-222-333 </p>
+							<p> bookstore@gmail.com </p>
+							<p> 123 Nguyễn Huệ, Thừa Thiên Huế </p>
+                        </div>
+
+                        <div class="col-md-4">
+							<hr class="light">
+							<h3> Thông tin cần biết </h3>
+		    				<p> Chính sách qui định </p>
+							<p> Điều khoản thanh toán </p>
+							<p> Phương thức thanh toán</p>
+						</div>
+
+						<div class="col-md-4">
+							<hr class="light">
+							<h3> Thông tin hữu ích</h3>
+							<p> Nhận xét </p>
+							<p> Chính sách hoàn/hủy</p>
+							<p> Những câu hỏi thường gặp</p>
+						</div>
+						<br>
+						<div class="col-12">
+							<br>
+						    <h6>&copy; BookStore </h6>
+						 </div>
+						</div>
+					</div>
+				</footer>
+
+</body>
+</html>
